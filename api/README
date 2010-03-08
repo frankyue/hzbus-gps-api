@@ -1,0 +1,29 @@
+1.How to use the api?
+Just send the bus_info to index.php by GET method then it will export a xml file(like blew).You can get some info from the xml!
+like this:
+assume your website's ip=ip,and the hzbus directory is in the root directory:
+	http://ip/hzbus/api.php?&bus=""&type=""&x=""&y=""&lineId=""
+	fill the data in the space which you get from the data xml file--->station.xml
+
+example:http://ip/hzbus/api.php?&bus=10/K10路&type=1&x=120.160633324206&y=30.2655013108071&lineId=41
+	which will get the line = 10/K10路 on the station's coordinate's(x,y)(-->省府大楼东) bus info;
+
+xml_out:
+	<?xml version=1.0 encoding=utf-8>
+	<Buses amount='2'>
+	<bus>
+	<number>023342</number>
+	<speed>00032.2</speed>
+	<distance>1233</distance>
+	<time>10</time>
+	</bus>
+	<bus>
+	<number>016342</number>
+	<speed>00000.0</speed>
+	<distance>33</distance>
+	<time>1</time>
+	</bus>
+	</Buses>
+2.The file of timer.php is a tool to test the speed of the function 
+
+author:frankyue1019@gmail.com

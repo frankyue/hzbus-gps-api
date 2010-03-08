@@ -1,0 +1,25 @@
+html{font-size:14px; color: #333333; line-height:18px; text-align:left}
+body{margin:0 auto;}
+div{margin:0 auto;}
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,textarea,input{margin:0; padding:0; border:none;}
+td,th,div{word-break:break-all;word-wrap:break-word;}
+ol,ul,li{list-style:none; }
+a:link{text-decoration:none;  color:#006}
+a:visited{text-decoration:none;  color:#006}
+a:hover{text-decoration:none;  color:#006}
+.t{max-height:35px;overflow:hidden;text-overflow:ellipsis}
+.title{background:url(head_bg.png) repeat-x; height:44px; width:320px;}
+.title ul{overflow:hidden; height:30px; padding:5px 10px 20px 7px;}
+.title ul li{ float:left;display:block; color:#006}
+.list{ border-bottom:1px solid #CCC; height:30px; width:320px}
+.list ul{overflow:hidden; padding:7px;}
+.list ul li{float:left; font-weight:bold;}
+.list ul li img{padding:5px;}
+.w{-webkit-border-image:url("w.png") 4 4 5 12 stretch stretch;border-width:4px 4px 5px 12px;padding-left:0;margin-left:3px}body{font-family:Arial,Helvetica,sans-serif;background-color:#f7f7f7;margin:0}.a{background-repeat:no-repeat}
+.u{display:inline-block;font-size:13px;text-shadow:#fff 0 1px 0;font-weight:bold;color:#2e4987;line-height:22px;min-height:19px;min-width:19px;white-space:nowrap;padding:1px 4px}
+.k{color:#182647;font-size:12px;font-weight:bold;text-align:center;text-shadow:#fff 0 1px 1px;vertical-align:middle}
+.v{-webkit-border-image:url("v.png") 4 4 5 4 stretch stretch;border-width:4px 4px 5px 4px}
+.e{background-position:0 -67px;width:24px;height:24px}
+.N{vertical-align:middle;white-space:pre-wrap;padding-left:8px}
+.T{display:table-cell}
+
