@@ -1,3 +1,4 @@
 There are two folders which named api and mobile
 1.the api of the hangzhou buses's gps is in the folder of api
 2.The folder of mobile is a template of website which can used for mobile screen 240*320 and show the way to use the api.
+3.demo: http://frankyue.me/bus
